@@ -18,6 +18,9 @@ from os.path import dirname, join, exists
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
+## SECURITY WARNING: keep the secret key used in production secret!
+#SECRET_KEY = 'f+3+9(0%gc7ulm7(@jy*#p($*0cl1j0$8%)n^j8jgor=&z5fl5'
+
 # Use 12factor inspired environment variables or from a file
 import environ
 env = environ.Env()
